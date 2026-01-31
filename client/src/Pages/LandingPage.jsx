@@ -77,22 +77,7 @@ export default function LandingPage() {
                         </div>
                     </div>
                     <div className="landing-hero-image-wrapper">
-                        {/* Abstract representation of dashboard */}
-                        <div className="landing-hero-image">
-                            <div className="landing-mockup-header">
-                                <div className="landing-dot red"></div>
-                                <div className="landing-dot yellow"></div>
-                                <div className="landing-dot green"></div>
-                            </div>
-                            <div className="landing-mockup-body">
-                                <div className="landing-mockup-sidebar"></div>
-                                <div className="landing-mockup-content">
-                                    <div className="landing-mockup-chart"></div>
-                                    <div className="landing-mockup-row"></div>
-                                    <div className="landing-mockup-row"></div>
-                                </div>
-                            </div>
-                        </div>
+                        <img src="/hero.png" alt="Dashboard Preview" className="landing-hero-image" />
                     </div>
                 </div>
             </section>
@@ -107,23 +92,21 @@ export default function LandingPage() {
 
                     <div className="landing-problem-grid">
                         <ProblemCard
-                            icon="🕒"
+
                             title="Manual Attendance"
                             desc="Inaccurate tallying and lost time sheets are history."
                         />
                         <ProblemCard
-                            icon="📊"
+
                             title="Excel Spreadsheet Chaos"
                             desc="Move away from fragile spreadsheets that break easily."
                         />
                         <ProblemCard
-                            icon="💸"
                             title="Costly Payroll Errors"
                             desc="Ensure accurate calculations and happy employees every time."
                         />
                         <ProblemCard
-                            icon="🙈"
-                            title="Zero Visibility"
+                            Stitle="Zero Visibility"
                             desc="Stop guessing. Get real-time insights into performance."
                         />
                     </div>
@@ -135,9 +118,7 @@ export default function LandingPage() {
                 <div className="landing-section-content">
                     <div className="landing-split-layout">
                         <div className="landing-split-image">
-                            <div className="landing-office-image-placeholder">
-                                <Users size={64} color="#cbd5e1" />
-                            </div>
+                            <img src="/office-desk.jpg" alt="Office Workspace" className="landing-split-img" />
                         </div>
                         <div className="landing-split-text">
                             <div className="landing-small-label">THE ALL-IN-ONE PARTNER</div>

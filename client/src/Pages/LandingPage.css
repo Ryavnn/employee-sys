@@ -226,68 +226,18 @@
 }
 
 .landing-hero-image {
-    background-color: #1e293b;
+    width: 100%;
+    height: auto;
     border-radius: 16px;
-    padding: 24px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    aspect-ratio: 4/3;
-    display: flex;
-    flex-direction: column;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    object-fit: cover;
+    border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.landing-mockup-header {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 24px;
-}
-
-.landing-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-}
-
-.landing-dot.red {
-    background-color: #ef4444;
-}
-
-.landing-dot.yellow {
-    background-color: #f59e0b;
-}
-
-.landing-dot.green {
-    background-color: #22c55e;
-}
-
-.landing-mockup-body {
-    flex: 1;
-    display: flex;
-    gap: 16px;
-}
-
-.landing-mockup-sidebar {
-    width: 20%;
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 8px;
-}
-
-.landing-mockup-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.landing-mockup-chart {
-    height: 40%;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-}
-
-.landing-mockup-row {
-    height: 20%;
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 8px;
+.landing-hero-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.3);
 }
 
 /* Problem Section */
@@ -368,11 +318,20 @@
 .landing-split-image {
     width: 100%;
     height: 400px;
-    background-color: #f1f5f9;
     border-radius: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.landing-split-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.landing-split-image:hover .landing-split-img {
+    transform: scale(1.05);
 }
 
 .landing-small-label {
