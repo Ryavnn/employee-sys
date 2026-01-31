@@ -25,7 +25,7 @@ export default function LandingPage() {
             {/* Navbar */}
             <nav className="landing-navbar">
                 <div className="landing-nav-content">
-                    <div className="landing-logo">EMS<span className="landing-logo-highlight">Pro</span></div>
+                    <div className="landing-logo">EMS</div>
 
                     <div className="landing-desktop-nav">
                         <a href="#features" className="landing-nav-link">Features</a>
@@ -56,7 +56,7 @@ export default function LandingPage() {
             <section className="landing-hero-section">
                 <div className="landing-hero-container">
                     <div className="landing-hero-text">
-                        <div className="landing-badge">New 2.0 Application</div>
+
                         <h1 className="landing-hero-title">
                             Scale Your Business with <span className="landing-hero-highlight">Effortless Employee Management</span>
                         </h1>
@@ -220,7 +220,7 @@ export default function LandingPage() {
                 <div className="landing-section-content">
                     <div className="landing-footer-grid">
                         <div className="landing-footer-brand">
-                            <div className="landing-logo" style={{ color: 'white' }}>EMS<span className="landing-logo-highlight">Pro</span></div>
+                            <div className="landing-logo" style={{ color: 'white' }}>EMS</div>
                             <p className="landing-footer-text">Modernizing workforce management for the heart of business. Built with care.</p>
                         </div>
                         <div className="landing-footer-links">
@@ -237,12 +237,12 @@ export default function LandingPage() {
                         </div>
                         <div className="landing-footer-links">
                             <h4 className="landing-footer-head">Contact Us</h4>
-                            <p className="landing-footer-text">hello@emspro.com</p>
+                            <p className="landing-footer-text">hello@ems.com</p>
                             <p className="landing-footer-text">+123 456 7890</p>
                         </div>
                     </div>
                     <div className="landing-footer-bottom">
-                        <p>© 2026 EMS Pro. All rights reserved.</p>
+                        <p>© 2026 EMS. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

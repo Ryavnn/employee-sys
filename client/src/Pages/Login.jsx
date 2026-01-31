@@ -342,7 +342,7 @@ export default function LoginPage() {
             </form>
 
             <div style={styles.copyright}>
-              &copy; 2026 EMS Pro. All rights reserved.
+              &copy; 2026 EMS. All rights reserved.
             </div>
           </div>
         </div>
@@ -364,6 +364,6 @@ export default function LoginPage() {
           animation: spin 1s linear infinite;
         }
       `}</style>
-    </div>
+    </div >
   );
 }
